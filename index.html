@@ -1,0 +1,56 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.7.2/darkly/bulmaswatch.min.css">
+  <script src="script.js"></script>
+</head>
+<nav class="level">
+  <div class="level-item level-left">
+    <h1 class="title is-1">The Console</h1>
+  </div>
+</nav>
+<div class="container is-fluid">
+  <div class="tile is-ancestor">
+  <div class="tile is-vertical is-8">
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification is-primary">
+          <p class="title">What is it?</p>
+          <p class="subtitle"></p>
+          <div class="content">
+          <p>The console is an object that contains a wonderful assortment of methods. Modern browsers can display console information in the `web console`.</p>
+            <pre class="has-text-dark">
+> typeof(console);
+<- "object"
+            </pre>
+          </div>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-info content">
+          <p class="title">How do I use it?</p>
+
+          <p class="subtitle"></p>
+          <ul>
+            <li>chrome - <span class="has-background-warning has-text-dark">right click</span> anywhere on the page and select <span class="has-background-warning has-text-dark">inspect</span></li>
+            <li>firefox - <span class="has-background-warning has-text-dark">right click</span> anywhere on the page and select <span class="has-background-warning has-text-dark">inspect element</span>
+              <li>edge - <span class="has-background-warning has-text-dark">right click</span> anywhere on the page and select <span class="has-background-warning has-text-dark">inspect</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child notification is-success">
+      <div class="content">
+        <p class="title">Try it out!</p>
+        <p class="subtitle">Open up your console and smash these buttons!</p>
+        <div class="content">
+          <button onClick="clickMe()" class="button is-primary">Click me!</button><br />
+          <button onClick="clickStartTimer()" class="button is-primary">Start a timer!</button><br />
+          <button onClick="clickEndTimer()" class="button is-primary">End your timer!</button>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+</div>
